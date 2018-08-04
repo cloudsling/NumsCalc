@@ -1,0 +1,11 @@
+D:\Schrodinger\Documents\Source\NumCalc\bin\Debug\netcoreapp2.1\NumCalc.deps.json
+D:\Schrodinger\Documents\Source\NumCalc\bin\Debug\netcoreapp2.1\NumCalc.runtimeconfig.json
+D:\Schrodinger\Documents\Source\NumCalc\bin\Debug\netcoreapp2.1\NumCalc.runtimeconfig.dev.json
+D:\Schrodinger\Documents\Source\NumCalc\bin\Debug\netcoreapp2.1\NumCalc.dll
+D:\Schrodinger\Documents\Source\NumCalc\bin\Debug\netcoreapp2.1\NumCalc.pdb
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.csprojAssemblyReference.cache
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.csproj.CoreCompileInputs.cache
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.AssemblyInfoInputs.cache
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.AssemblyInfo.cs
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.dll
+D:\Schrodinger\Documents\Source\NumCalc\obj\Debug\netcoreapp2.1\NumCalc.pdb
