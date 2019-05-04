@@ -38,7 +38,6 @@ namespace NumCalc
                 InitDetal(AtomList.Count);
                 Ran = new Random();
                 int oneCum;
-                Console.WriteLine("Starting...");
 
                 while (true)
                 {

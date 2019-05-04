@@ -15,6 +15,8 @@ namespace NumCalc
                 };
 
             var calc = new Calculator(exption, atomList);
+
+            Console.WriteLine("Starting...");
             var calced = calc.Calculcate();
 
             if (calced != null)
