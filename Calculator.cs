@@ -35,7 +35,8 @@ namespace NumCalc
     {
       while (true)
       {
-        InitDetal(AtomList.Count);
+        int cnt = AtomList.Count;
+        InitDetal(cnt);
         Ran = new Random();
         int oneCum;
 
@@ -47,13 +48,13 @@ namespace NumCalc
           double sums = Sums(AtomList, DetalList);
           if (sums > Expected)
           {
-            if (sums - Expected < 0.0001)
+            if (sums - Expected < 0.01)
             {
               return DetalList;
             }
             break;
           }
-          if (Expected - sums < 0.0001)
+          if (Expected - sums < 0.01)
           {
             return DetalList;
           }
