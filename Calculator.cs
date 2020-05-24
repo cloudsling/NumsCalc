@@ -65,7 +65,8 @@ namespace NumCalc
 		private void InitDelta(int count)
 		{
 			DeltaList.Clear();
-			Random Ran = new Random();
+			Ran = new Random();
+
 			for (int i = 0; i < count; i++)
 			{
 				double delta = Ran.Next(0, 10) / 10;
