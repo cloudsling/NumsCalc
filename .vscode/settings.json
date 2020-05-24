@@ -1,6 +1,5 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Monaco, 'Courier New', monospace",
     "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "all"
 }

@@ -7,8 +7,8 @@ namespace NumCalc
 	{
 		static void Main(string[] args)
 		{
-			//double exption = 464808;
-			double exption = 1430540;//755920;
+			//double except = 464808;
+			double expect = 1430540;//755920;
 
 			var atomList = new List<double>{
 				   11900,17000,13900,19700,13900
@@ -16,14 +16,14 @@ namespace NumCalc
 
 			Test(atomList);
 
-			var calc = new Calculator(exption, atomList);
+			var calc = new Calculator(expect, atomList);
 
 			Console.WriteLine("Starting...");
-			var calced = calc.Calculcate();
+			var calculated = calc.Calculate();
 
-			if (calced != null)
+			if (calculated != null)
 			{
-				foreach (var item in calced)
+				foreach (var item in calculated)
 					Console.WriteLine(item);
 
 				Console.Read();
@@ -32,11 +32,11 @@ namespace NumCalc
 
 		public static void Test(List<double> atomList)
 		{
-			var UTdate = UnitTest.Data();
+			var utData = UnitTest.Data();
 			double sums = 0.0;
-			for (int i = 0; i < UTdate.Count; i++)
+			for (int i = 0; i < utData.Count; i++)
 			{
-				sums += UTdate[i] * atomList[i];
+				sums += utData[i] * atomList[i];
 			}
 			Console.WriteLine();
 		}
